@@ -1,0 +1,42 @@
+body{
+    background-color: #464545;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: #bebcbc;
+    width: 300px;
+    border-radius: 8px;
+    padding: 30px;
+}
+h2{
+    text-align: center;
+    color: rgb(204, 11, 69);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+input{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+button{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #42ec18;
+    width: fit-content;
+    margin-left: 40%;
+}
+
+button:hover{
+    background-color: #0be628;
+}
